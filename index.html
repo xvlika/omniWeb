@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omni</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="sign.css">
 </head>
@@ -18,11 +17,23 @@
             <p>Password</p>
             <div id="password">
                 <input type="password" name="password" placeholder="Enter Your Password">
-                <img src="./assets/passwordSee.svg" alt="show password icon">
+                <img onclick="changeType()" src="./assets/passwordSee.svg" alt="show password icon">
             </div>
             <p>Email</p>
             <input type="email" name="emailAddress" placeholder="Enter Your Email">
         </form>
+        <button id="signup">
+            Sign up
+        </button>
+        <h2>or</h2>
+        <div id="contWith">
+            <a href="google.com"><img src="./assets/google.svg" alt="google logo"></a>
+            <a href="facebook.com"><img src="./assets/facebook.svg" alt="facebook logo"></a>
+            <a href="apple.com"><img src="./assets/apple.svg" alt="apple logo"></a>
+        </div>
+        <p id="alreadyHave">Already have an account? <span><a href="#">Login here!</a></span></p>
+        
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>

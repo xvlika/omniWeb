@@ -21,6 +21,8 @@
     border-radius: 30px 30px 0px 0px;
     height: calc(100% - 93px);
     width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #E0E3D2;
 }
 #mainBox h1{
@@ -65,11 +67,15 @@
 input::placeholder{
     color: #e0e3d288;
 }
-#userSign input:nth-last-child(4){
-    width: 90%;
+#userSign input:nth-last-child(2){
+    width: 85%;
     align-self: flex-start;
-    margin-left: 15px;
+    margin-left: 5px;
     display: inline;
+
+}
+#userSign img{
+    cursor: pointer;
 }
 input:focus {
     outline: none; 
@@ -80,6 +86,52 @@ input:focus {
 }
 #password{
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-around;
+}
+#signup{
+    width: 315px;
+    height: 61px;
+    border: 0;
+    border-radius: 20px;
+    background: #3F532E;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: center;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+#signup:active{
+    scale: 0.95;
+}
+#mainBox h2{
+    color: #3F532E;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: center;
+    margin-top: 55px;
+}
+#contWith{
+    display: flex;
+    justify-content: space-around;
+}
+#alreadyHave{
+    color: #3F532E;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    align-self: center;
+}
+#alreadyHave span{
+    font-weight: 600;
 }
