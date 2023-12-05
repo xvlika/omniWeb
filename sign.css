@@ -52,7 +52,7 @@
 }
 #userSign input{
     width: calc(100% - (28px + 13px));
-    height: 50px;
+    height: 44px;
     border-radius: 40px;
     border: 0;
     padding-left: 15px;
