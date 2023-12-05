@@ -133,5 +133,10 @@ input:focus {
     align-self: center;
 }
 #alreadyHave span{
+    
     font-weight: 600;
+}
+#alreadyHave a{
+    text-decoration: none;
+    color: #3F532E;
 }
