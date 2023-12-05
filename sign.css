@@ -65,6 +65,21 @@
 input::placeholder{
     color: #e0e3d288;
 }
+#userSign input:nth-last-child(4){
+    width: 90%;
+    align-self: flex-start;
+    margin-left: 15px;
+    display: inline;
+}
 input:focus {
     outline: none; 
+}
+#userSign img{
+    width: 30px;
+    display: inline;
+}
+#password{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
