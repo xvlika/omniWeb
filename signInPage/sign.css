@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,300&family=Inter:wght@300;400;600;700&display=swap');body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #3F532E;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px;
+}
+#name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px 0px 0px 18px;
+}
+#mainBox{
+    border-radius: 30px 30px 0px 0px;
+    height: calc(100% - 93px);
+    width: 100%;
+    background-color: #E0E3D2;
+}
+#mainBox h1{
+    color: #3F532E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#userSign{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#userSign p{
+    color: #3F532E;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    align-self: start;
+    margin-left: 20px;
+    line-height: normal;
+}
+#userSign input{
+    width: calc(100% - (28px + 13px));
+    height: 50px;
+    border-radius: 40px;
+    border: 0;
+    padding-left: 15px;
+    background-color: #809E66;
+    color: #E0E3D2;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+input::placeholder{
+    color: #e0e3d288;
+}
+input:focus {
+    outline: none; 
+}
